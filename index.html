@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bffc59eac1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("i").click(function(){
+                $("ul").toggleClass("ul_show");
+                $("section").toggleClass("slide_image")
+            })
+
+            $("li").click(function(){
+                $(this).addClass("active").siblings().removeClass("active");
+            })
+        })
+    </script>
+</head>
+
+<body>
+
+    <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a class="contact" href="#contact">Contact</a></li>
+    </ul>
+
+    <section>
+        <i class="fas fa-bars"></i>
+        <div class="sec1"></div>
+        <h1 id="about">About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facere eligendi consequuntur eius ducimus
+            maiores deleniti, excepturi obcaecati consequatur, ratione temporibus illum eveniet totam voluptatibus.
+            Dolore repellendus facilis explicabo vitae voluptatem ea reprehenderit esse recusandae qui nisi, cumque,
+            iusto laborum quod, ad consectetur consequuntur obcaecati molestiae corrupti tenetur? Magni alias,
+            recusandae eveniet repellat nemo numquam est soluta inventore unde officia? Consequuntur similique quibusdam
+            non asperiores quisquam magni illo odit, unde inventore perferendis est nam modi facere qui cum sapiente
+            enim quidem architecto numquam, autem consequatur magnam? Natus, est quos enim rem tempore consectetur
+            repudiandae molestias reprehenderit laudantium. Numquam, magni reiciendis.</p>
+        <div class="sec2"></div>
+        <h1 id="portfolio">Portfolio</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vel inventore harum cupiditate provident quo
+            minima nam. Velit, enim ipsam maxime obcaecati incidunt, dolores, optio deleniti tempore nobis iste sint
+            asperiores rerum beatae aspernatur tenetur atque? Magnam voluptate voluptatum laudantium eos quae est quia
+            natus tenetur officia obcaecati quo, alias exercitationem eveniet blanditiis quasi veniam sed suscipit
+            libero, quibusdam ipsa cumque vero itaque. Esse aperiam nesciunt ipsam laudantium, facilis iusto natus ab!
+            Placeat enim voluptas adipisci accusantium quam. Facilis repellendus dolores perferendis dignissimos? Nam,
+            amet voluptatum vero adipisci nisi enim ut error explicabo saepe ad libero suscipit! Nam, illum repudiandae.
+        </p>
+        <div class="sec3"></div>
+        <h1 id="gallery">Gallery</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consequuntur architecto. Omnis officiis
+            quo nihil repellendus. Explicabo nisi corporis excepturi deleniti soluta ullam nam nulla exercitationem
+            nesciunt quisquam nobis delectus suscipit quibusdam voluptatem eos quasi tenetur, accusantium reiciendis?
+            Sequi dignissimos reiciendis aut perspiciatis repellat sit placeat soluta. Earum quaerat laboriosam ad
+            obcaecati corporis libero veniam doloribus quas maiores eius. Eos illum eum pariatur aliquid, labore debitis
+            ipsum impedit perferendis est sint saepe nisi quis in cumque quae repellendus ducimus veniam qui. Distinctio
+            repudiandae cumque veniam enim, accusamus consectetur quasi ad perspiciatis ut numquam earum voluptatem,
+            incidunt eos, eum dignissimos nulla.</p>
+        <div class="sec4"></div>
+        <h1 id="services">Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi aut obcaecati aliquid expedita itaque modi
+            consequatur! Ipsam id itaque, aut accusamus ut odio corrupti, incidunt, officia error odit consequuntur iure
+            recusandae veritatis voluptatum repudiandae minus asperiores corporis architecto ullam. Distinctio, at quia
+            porro ratione cum blanditiis ea eius dolor culpa minus voluptatibus aspernatur adipisci optio nam
+            repellendus obcaecati deserunt et vitae odio perspiciatis. Laborum expedita exercitationem debitis, error
+            rem quis. Maxime nulla consectetur veniam fugit laudantium quis iure ipsam eligendi velit est omnis
+            reiciendis, vitae laboriosam quas sed eius quos laborum quasi, cum totam dolorum. Id adipisci tempora iusto.
+        </p>
+        <div class="sec5"></div>
+        <h1 id="feedback">Feedback</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eveniet dolorem pariatur ipsam fugiat
+            aspernatur soluta reiciendis vel nihil vitae ea aperiam voluptatibus, minus quam repudiandae dolor facere
+            corrupti quisquam laborum assumenda consectetur cum maiores deserunt obcaecati? Molestiae, rem corporis,
+            quasi sequi officia maxime doloribus eius quam molestias commodi, obcaecati alias. Dolorum non neque
+            assumenda tenetur facilis sint possimus sit cum asperiores alias! Suscipit, eum? Quia optio sunt, voluptatem
+            quisquam unde aperiam, omnis consectetur, possimus repellat quis sapiente dolorem non distinctio? Voluptatem
+            consequuntur cupiditate, ut quod sint debitis minus inventore pariatur sunt odio necessitatibus veritatis
+            corrupti natus esse adipisci labore!</p>
+        <div class="sec6"></div>
+        <h1 id="contact">Contact</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat sequi vitae blanditiis cupiditate commodi,
+            odio voluptatem. Qui rerum quia nisi a. Impedit voluptatem quod asperiores placeat cumque. Accusantium
+            numquam quisquam, tempore deleniti voluptatibus deserunt, veniam magnam, non delectus reprehenderit rem
+            unde. Magnam eligendi corrupti voluptatibus cumque odit, doloremque ullam sapiente odio eaque quaerat
+            repudiandae suscipit deserunt praesentium, unde temporibus mollitia. Ad voluptatum ipsum mollitia nam
+            placeat sunt sapiente expedita, esse quasi quaerat! Corrupti animi, pariatur error ratione doloribus
+            accusantium iste sit iusto mollitia explicabo et nesciunt impedit, fugiat odio. Dolorem accusantium illum
+            quidem quaerat esse iusto! Pariatur odio quos reiciendis.</p>
+        <div class="sec7"></div>
+
+    </section>
+
+</body>
+
+</html>
